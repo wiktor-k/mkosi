@@ -74,6 +74,7 @@ class Image:
             check=check,
             stdin=stdin,
             stdout=sys.stdout,
+            stderr=sys.stderr,
             user=user,
             group=group,
             env=os.environ,
