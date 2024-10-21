@@ -4627,7 +4627,7 @@ def summary(config: Config) -> str:
                          Passphrase: {none_to_none(config.passphrase)}
                            Checksum: {yes_no(config.checksum)}
                                Sign: {yes_no(config.sign)}
-                       OpenPGP Tool: ({config.openpgp_tool or "gpg"})
+                       OpenPGP Tool: ({config.openpgp_tool})
                             GPG Key: ({"default" if config.key is None else config.key})
 """
 
